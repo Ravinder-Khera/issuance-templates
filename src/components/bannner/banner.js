@@ -1,13 +1,22 @@
+import nftImg from '../../assets/images/unnamed.png';
 
 function Banner() {
     return (<>
        <section>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-5 order-md-2">
-                      <img />
+                    <div className="col-md-6 order-md-2 position-relative">
+                      <div className="Banner_card">
+                          <div className="d-flex">
+                              <div className="green_bg">BUY NOW</div>
+                              <div className="black_bg">#1234</div>
+                          </div>
+                        <div className="container card">
+                            <img src={ nftImg } className="img-fluid"/>
+                        </div>
+                        </div>
                     </div>
-                    <div className="col-md-7 order-md-1 text-md-start">
+                    <div className="col-md-6 order-md-1 text-md-start">
                         <img />
                         <h2 className="template_headings">D<span>O</span>LOR</h2>
                         <h2 className="template_headings">ABO RES</h2>
@@ -18,7 +27,7 @@ function Banner() {
                 </div>
             </div>
         </section>
-        
+
         <progress id="file" value="32" max="100"> 32% </progress>BUY NOW
     </>);
   }

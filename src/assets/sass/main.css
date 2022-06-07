@@ -30,4 +30,37 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+
+.Banner_card {
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  -webkit-transform: rotate(353deg) skew(7.999deg) scale(1, 1);
+          transform: rotate(353deg) skew(7.999deg) scale(1, 1);
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  z-index: 3;
+  background-color: #1c1719;
+  border-width: 0px;
+  padding: 10px;
+  width: 50%;
+}
+
+.Banner_card .green_bg {
+  background-color: #bdcb00;
+  padding: 10px;
+  color: #fff;
+}
+
+.Banner_card .black_bg {
+  background-color: #1c1719;
+  padding: 10px;
+  color: #fff;
+}
+
+.Banner_card .container {
+  background-color: #bdcb00;
+  border-width: 0px;
+}
 /*# sourceMappingURL=main.css.map */

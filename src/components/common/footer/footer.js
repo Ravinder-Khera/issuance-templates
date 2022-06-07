@@ -17,7 +17,7 @@ function Footer() {
             </li>  
           </ul>
         </div>
-          <button type="button" class="btn btn-secondary">icons</button>
+          <button type="button" className="btn btn-secondary">icons</button>
       </div>
     </footer>
     </>);

@@ -29,7 +29,7 @@ function Header() {
               <a className="nav-link active" aria-current="page" href="#">Link</a>
             </li>
           </ul>
-          <button type="button" class="btn btn-secondary">Button</button>
+          <button type="button" className="btn btn-secondary">Button</button>
         </div>
       </div>
     </nav>
