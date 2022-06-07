@@ -27,13 +27,35 @@
     }
 }
 
+.cards_transform2{
+    transform: translate(200px,100px) rotate(6.000deg) skew(-7.000deg) scale(1.000,1.000);
+    transform-origin: 0% 0%;
+}
+
+.cards_transform1{
+    transform: rotate(353.000deg) skew(7.999deg) scale(1.000,1.000);
+    transform-origin:0% 0%;
+}
+
+.round_border_card{
+    border-color:#c0c2c4;
+	border-width:6px;
+    border-top: transparent;
+    border-radius: 50%;
+    left:0px;
+	position:absolute;
+	top:0px;transform: translate(-2px,100px) rotate(9deg) skew(0deg) scale(1, 1);
+	transform-origin:0% 0%;
+	z-index:6;
+    height: 100px;
+    width: 100%;
+    border-style: solid;
+}
+
 .Banner_card{
 	left:0px;
 	position:absolute;
 	top:0px;
-	transform: rotate(353.000deg) skew(7.999deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
 	z-index:3;
     background-color: #1c1719;
     border-width: 0px;
