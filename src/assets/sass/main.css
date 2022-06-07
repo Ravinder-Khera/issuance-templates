@@ -1,0 +1,33 @@
+.template_headings {
+  color: #000000;
+  font-size: 80px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 0;
+  orphans: 1;
+  page-break-after: auto;
+  page-break-before: auto;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0;
+  text-transform: none;
+  widows: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.template_headings span {
+  color: #bdcb00;
+  font-family: "Stretch Pro", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=main.css.map */
