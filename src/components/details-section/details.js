@@ -4,23 +4,23 @@ function Details() {
         <section>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-5 order-md-2">
-                        <div className="details_left">
+                    <div className="col-md-5 order-md-2 ">
+                        <div className="card m-2 details_trait_cards">
                             <h2 className="green_heading">175+</h2>
                             <p>UNIQUE TRAIT</p>
                         </div>
-                        <div className="details_left">
+                        <div className="card m-2 details_trait_cards">
                             <h2 className="green_heading">1.5%</h2>
                             <p>COMMUNITY RETURNS</p>
                         </div>
-                        <div className="details_left">
+                        <div className="card m-2 details_trait_cards">
                             <h2 className="green_heading">ETH</h2>
                             <p>Stored as ERC-721 Tokens</p>
                         </div>
                     </div>
                     <div className="col-md-7 order-md-1 text-md-start">
                         <img />
-                        <h2 className="heading_h2">D<span>E</span>TAILS</h2>
+                        <h2 className="template_headings">D<span>E</span>TAILS</h2>
                         <p>Evenducil ex eaqui dolorrum aut faciis nusant velitat urestibus et eatest ant idundis evel iniminu.</p>
                         <p>Iliquas pelicil idundis evel iniminu menditate volorec temquamust labo. Dolupta tiantibus secuptatem harchil inctotat experibus.</p>
                         <p>Offictur, occullorrum eum fuga. Ovitibus. Osapedis alit ra con con nus inullabo. Sum eaquam quia venis et veni nullectem que molorro velitam.</p>

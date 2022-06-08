@@ -6,25 +6,20 @@
     font-weight: bold;
     line-height: 1.2;
     margin-top: 0;
-    orphans: 1;
-    page-break-after: auto;
-    page-break-before: auto;
-    text-align: left;
     text-decoration: none;
     text-indent: 0;
     text-transform: none;
     widows: 1;
-    display: flex;
     flex-wrap: wrap;
+    font-family: "Stretch Pro", sans-serif;
     span{
         color: #bdcb00;
-        font-family: "Stretch Pro", sans-serif;
-        font-size: 80px;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: bold;
-        text-transform: uppercase;
     }
+}
+
+.header_img_logo{
+    width: 120px;
+    height: 100%;
 }
 
 .cards_transform2{
@@ -52,6 +47,53 @@
     border-style: solid;
 }
 
+.bottom_shadow{
+    background-color: #c0c2c4;
+    border-width: 0px;
+    border-radius: 50%;
+    height: 30px;
+    left: 0px;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    // box-shadow: 0px 0px 10px 10px rgb(192 194 196);
+    z-index: 5;
+    box-shadow: 0px 0px 10px 10px #c0c2c4;
+}
+
+
+
+.carousal_card{
+    background-color: #1c1719;
+    border-width: 0px;
+    padding: 10px;
+    .green_bg{
+        background-color: #bdcb00;
+        padding: 10px;
+        clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
+        color: #fff;
+    }
+    .black_bg{
+        background-color: #1c1719;
+        padding: 10px;
+        color: #fff;
+    }
+    .container{
+        background-color: #bdcb00;
+        border-width: 0px;
+        .rarity_percentage_box{
+            height: 25%;
+            left:0px;
+            position:absolute;
+            bottom:0px;
+            width: 35%;
+            z-index:3;
+            background-color: #fff;
+            clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
+        }
+    }
+}
+
 .Banner_card{
 	left:0px;
 	position:absolute;
@@ -64,6 +106,7 @@
     .green_bg{
         background-color: #bdcb00;
         padding: 10px;
+        clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
         color: #fff;
     }
     .black_bg{
@@ -74,5 +117,181 @@
     .container{
         background-color: #bdcb00;
         border-width: 0px;
+        .rarity_percentage_box{
+            height: 25%;
+            left:0px;
+            position:absolute;
+            bottom:0px;
+            // transform:translate(20px,37px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+            // transform:translate(20px,37px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+            // transform-origin:0% 0%;
+            // transform-origin:0% 0%;
+            width: 35%;
+            z-index:3;
+            background-color: #fff;
+            clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
+        }
     }
 }
+
+.progress_bar_section{
+    margin: 50px 0px;
+    .progress_bg{
+        width: 80%;
+        float: left;
+        background-color: #000000;
+        padding: 10px;
+        border-radius: 20px;
+        display: flex;
+        position: relative;
+        .progress_green{
+            background-color: #bdcb00;
+            width: 50%;
+            border-radius: 10px;
+            position: relative;
+            .progress_rate{
+                position: absolute;
+                width: 15%;
+                padding: 4px;
+                right: 0px;
+                /* top: 0px; */
+                bottom: -6px;
+                background-color: #fff;
+                border-radius: 10px;
+                font-weight: bold;
+            }
+        }
+        .progress_total{
+            color: #c0c2c4;
+            font-weight: bold;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+    }
+    .progress_buyNow{
+        margin: 10px 20px;
+        font-weight: bold;
+    }
+}
+
+.learn_more_btn{
+    background-color: #000000;
+    border-bottom-left-radius: 21px;
+    border-bottom-right-radius: 21px;
+    border-top-left-radius: 21px;
+    border-top-right-radius: 21px;
+    border-width: 0px;
+    color: #bdcb00;
+    font-family: "Stretch Pro", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.details_trait_cards{
+    background-color: #e4e4e4 !important;
+    border-radius: 15px !important;
+    padding: 10px 20px; 
+    text-align: start;
+    .green_heading{
+        color: #bdcb00;
+        font-family: "Stretch Pro", sans-serif;
+        font-size: 80px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        text-transform: uppercase;
+    }
+}
+
+footer{
+    padding: 10px 0px;
+    .footer-brand{
+        width: 120px;
+        .footer_img_logo{
+            width: 100%;
+        }
+    }
+    .footer-list{
+        list-style: none;
+        align-items: flex-start;
+        text-align: left;
+        .footer-link{
+            color: #000000;
+            text-decoration: none;
+        }
+    }
+    .footer_icons{
+        display: flex;
+        margin-top: 30px;
+        .footer_icon{
+            color: #bdcb00;
+            font-size: 40px;
+            margin: 0px 20px;
+        }
+    }
+}
+
+.teams_section{
+    margin-top: 30px;
+    .heading_div{
+        text-align: center;
+        h2{
+            text-transform: uppercase;
+        }
+        p{
+            @media screen and(min-width:768px) {
+                max-width: 60%;
+                margin: 0% auto;
+            }
+        }
+    }
+    .slider_div{
+        @media screen and(min-width:768px) {
+            max-width: 60%;
+            margin: 0% auto;
+        }
+    }
+}
+
+.slider_section{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .slider_container{
+        border: 1px solid #1c1719;
+        background-color: #e4e4e4;
+        border-radius: 20px;
+        padding: 40px;
+        .slider_div{
+            @media screen and(min-width:768px) {
+                max-width: 80%;
+                margin: 0% auto;
+            }
+            .carousal_card{
+                margin: 10px;
+            }
+        }
+    }
+}
+
+.accordion-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #c0c2c4;
+    border-radius: 20px;
+    margin: 10px auto;
+    text-align: left;
+    @media screen and(min-width:768px) {
+        max-width: 60%;
+    }
+}
+
+.faq_section{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+//carousel file
+@import 'carouselArrows';

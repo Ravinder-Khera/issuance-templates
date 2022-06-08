@@ -1,3 +1,4 @@
+@import url(/home/decrypt-3/dev-06-2022/issuance-templates/src/assets/sass/_carouselArrows.css);
 .template_headings {
   color: #000000;
   font-size: 80px;
@@ -6,29 +7,22 @@
   font-weight: bold;
   line-height: 1.2;
   margin-top: 0;
-  orphans: 1;
-  page-break-after: auto;
-  page-break-before: auto;
-  text-align: left;
   text-decoration: none;
   text-indent: 0;
   text-transform: none;
   widows: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  font-family: "Stretch Pro", sans-serif;
 }
 
 .template_headings span {
   color: #bdcb00;
-  font-family: "Stretch Pro", sans-serif;
-  font-size: 80px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: bold;
-  text-transform: uppercase;
+}
+
+.header_img_logo {
+  width: 120px;
+  height: 100%;
 }
 
 .cards_transform2 {
@@ -63,6 +57,57 @@
   border-style: solid;
 }
 
+.bottom_shadow {
+  background-color: #c0c2c4;
+  border-width: 0px;
+  border-radius: 50%;
+  height: 30px;
+  left: 0px;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  z-index: 5;
+  -webkit-box-shadow: 0px 0px 10px 10px #c0c2c4;
+          box-shadow: 0px 0px 10px 10px #c0c2c4;
+}
+
+.carousal_card {
+  background-color: #1c1719;
+  border-width: 0px;
+  padding: 10px;
+}
+
+.carousal_card .green_bg {
+  background-color: #bdcb00;
+  padding: 10px;
+  -webkit-clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
+  color: #fff;
+}
+
+.carousal_card .black_bg {
+  background-color: #1c1719;
+  padding: 10px;
+  color: #fff;
+}
+
+.carousal_card .container {
+  background-color: #bdcb00;
+  border-width: 0px;
+}
+
+.carousal_card .container .rarity_percentage_box {
+  height: 25%;
+  left: 0px;
+  position: absolute;
+  bottom: 0px;
+  width: 35%;
+  z-index: 3;
+  background-color: #fff;
+  -webkit-clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
+}
+
 .Banner_card {
   left: 0px;
   position: absolute;
@@ -77,6 +122,8 @@
 .Banner_card .green_bg {
   background-color: #bdcb00;
   padding: 10px;
+  -webkit-clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
   color: #fff;
 }
 
@@ -89,5 +136,208 @@
 .Banner_card .container {
   background-color: #bdcb00;
   border-width: 0px;
+}
+
+.Banner_card .container .rarity_percentage_box {
+  height: 25%;
+  left: 0px;
+  position: absolute;
+  bottom: 0px;
+  width: 35%;
+  z-index: 3;
+  background-color: #fff;
+  -webkit-clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
+}
+
+.progress_bar_section {
+  margin: 50px 0px;
+}
+
+.progress_bar_section .progress_bg {
+  width: 80%;
+  float: left;
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.progress_bar_section .progress_bg .progress_green {
+  background-color: #bdcb00;
+  width: 50%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.progress_bar_section .progress_bg .progress_green .progress_rate {
+  position: absolute;
+  width: 15%;
+  padding: 4px;
+  right: 0px;
+  /* top: 0px; */
+  bottom: -6px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.progress_bar_section .progress_bg .progress_total {
+  color: #c0c2c4;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.progress_bar_section .progress_buyNow {
+  margin: 10px 20px;
+  font-weight: bold;
+}
+
+.learn_more_btn {
+  background-color: #000000;
+  border-bottom-left-radius: 21px;
+  border-bottom-right-radius: 21px;
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+  border-width: 0px;
+  color: #bdcb00;
+  font-family: "Stretch Pro", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.details_trait_cards {
+  background-color: #e4e4e4 !important;
+  border-radius: 15px !important;
+  padding: 10px 20px;
+  text-align: start;
+}
+
+.details_trait_cards .green_heading {
+  color: #bdcb00;
+  font-family: "Stretch Pro", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+footer {
+  padding: 10px 0px;
+}
+
+footer .footer-brand {
+  width: 120px;
+}
+
+footer .footer-brand .footer_img_logo {
+  width: 100%;
+}
+
+footer .footer-list {
+  list-style: none;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  text-align: left;
+}
+
+footer .footer-list .footer-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+footer .footer_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+footer .footer_icons .footer_icon {
+  color: #bdcb00;
+  font-size: 40px;
+  margin: 0px 20px;
+}
+
+.teams_section {
+  margin-top: 30px;
+}
+
+.teams_section .heading_div {
+  text-align: center;
+}
+
+.teams_section .heading_div h2 {
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .teams_section .heading_div p {
+    max-width: 60%;
+    margin: 0% auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .teams_section .slider_div {
+    max-width: 60%;
+    margin: 0% auto;
+  }
+}
+
+.slider_section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.slider_section .slider_container {
+  border: 1px solid #1c1719;
+  background-color: #e4e4e4;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .slider_section .slider_container .slider_div {
+    max-width: 80%;
+    margin: 0% auto;
+  }
+}
+
+.slider_section .slider_container .slider_div .carousal_card {
+  margin: 10px;
+}
+
+.accordion-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #c0c2c4;
+  border-radius: 20px;
+  margin: 10px auto;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .accordion-title {
+    max-width: 60%;
+  }
+}
+
+.faq_section {
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=main.css.map */

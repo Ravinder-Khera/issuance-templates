@@ -6,8 +6,8 @@ function ImageText() {
                 <div className="row">
                     <div className="col-md-5">
                         <img />
-                        <h2 className="heading_h2">J<span>O</span>IN US</h2>
-                        <button type="button" className="btn btn-dark">Button</button>
+                        <h2 className="template_headings">J<span>O</span>IN <br/> US</h2>
+                        <button type="button" className="learn_more_btn"><p className="m-0 p-1">Learn More</p></button>
                     </div>
                     <div className="col-md-7 text-md-start">
                         <p>Evenducil ex eaqui dolorrum aut faciis nusant velitat urestibus et eatest ant idundis evel iniminu.</p>
